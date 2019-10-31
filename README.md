@@ -26,13 +26,13 @@ The macOS menubar can't be perfectly recreated in Windows since the menubar of W
 - Showing the app name menu, with the common options: About, Preferences..., Hide App, Hide Others, Show All, Quit App.
 - Showing the Window menu, with the common options.
 - When clicking in the app name menu -> Preferences... button, the user should be able to enable, disable, add and remove options from the menubar for that specific app, triggering keyboard shortcuts or running shell commands.
-- When clicking in the Windows flag menu -> System Preferences... button, it should launch the System Preferences app (if you have it installed).
+- When clicking in the Windows flag menu -> System Preferences... button, it should launch the System Preferences app (if you have it installed; otherwise it should launch Windows's Control Panel).
 
 The functionalities that I intent to implement in the right side are:
 - Showing the system tray app icons, with the right click action binded to a single click.
 - Showing the Bluetooth, Wi-Fi/Ethernet, Volume, Battery, Calendar+Time and User icons with options on click.
-- All the prior mentioned icons should have a Preferences option in their Menu to launch System Preferences in its specific view (if you have it installed).
-- Showing a magnifying icon that will launch the Spotlight (if you have it installed).
+- All the prior mentioned icons should have a Preferences option in their Menu to launch System Preferences in its specific view (if you have it installed; otherwise it should launch its Windows's Control Panel counterpart).
+- Showing a magnifying icon that can run a shell command (to launch the Spotlight, if you have it installed).
 
 ### System Preferences
 The macOS equivalent to the Windows's Control Panel is just easier to work on. The views below without a description are just intended to look as close to their macOS counterparts as possible. It should have the following views per row:
@@ -40,13 +40,14 @@ The macOS equivalent to the Windows's Control Panel is just easier to work on. T
    - **General**
    - **Desktop & Screen Saver**
    - **Dock**: same, but with one extra tab (Apps): to change an specific app name or icon, and to list apps that should be ignored by the Dock, other than system apps (the app may be ignored from the Applications view, or from the opened apps group). (if you have Dock installed).
-   - **Menubar**: should work as the Dock Apps tab, but for the Menubar. (if you have Menubar installed).
+   - **Menubar**: with two tabs: General and Apps. Apps should work as the Dock Apps tab, but for the Menubar. General should allow you to enable/disable any of its default icons, binding shell commands to them or leaving them with their default actions (if you have Menubar installed).
    - **Language & Region**
    - **Security & Privacy**: General tab only; FileVault, Firewall and Privacy should be ignored.
 - 2nd row:
    - **Displays**
    - **Energy Saver**
    - **Keyboard**: for Keyboard and Input Sources only.
+   - **Mouse**
    - **Touchpad**: equivalent to the macOS Trackpad option.
    - **Printers & Scanners**
    - **Sound**
