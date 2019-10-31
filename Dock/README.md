@@ -9,3 +9,5 @@ There are many applications that mimic the macOS dock in Windows, but most of th
 - The capability to add new apps/folders with drag-and-drop.
 - The capability to move apps/folders in the Dock with drag-and-drop.
 - In the recent apps area, show a minimum of three apps.
+
+It should be based in [CleverDock](https://github.com/ldom66/clever-dock).
