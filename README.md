@@ -1,6 +1,8 @@
 # macOsFeel (Windows)
 \[WIP\] Scripts and Apps to mimic the macOS Mojave feel in Windows 10
 
+**WARNING: None of the stuff mentioned below was done yet. Consider this as the plans for a new project**
+
 ## Modules
 macOsFeel tries to mimic the macOS appearance and functionalities, but each part of it is an individual app or script, and they are not dependent of each other. Here, you will find the modules names, so you can check exactly what are you looking for. 
 
