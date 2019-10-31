@@ -22,7 +22,7 @@ Basically Wordpad and Notepad combinated into a single app, but with a cleaner U
 For now, the Windows Explorer will do just good, but it would be interesting to recreate the Finder look in Windows in the future, since it has a more simple UI.
 
 ### Ignored modules
-There are things in macOS that I simply don't use (or don't use THAT much), and because of that I won't work on. In case you liked the project and want one of the modules below being a part of macOsFeel, submit a pull request and I will review it.
+There are things in macOS that I simply don't use, that I don't use THAT much, or that already have pretty good replacements. Because of that, I won't work on those. In case you liked the project and want one of the modules below being a part of macOsFeel, submit a pull request and I will review it.
 
 #### Calendar
 I love the macOS Calendar, but the Windows 10 calendar seems to be just good enought. Haven't tested it yet thought.
