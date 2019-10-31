@@ -39,7 +39,7 @@ The macOS equivalent to the Windows's Control Panel is just easier to work on. T
 - 1st row:
    - **General**
    - **Desktop & Screen Saver**
-   - **Dock**: same, but with one extra tab (Apps): to change an specific app name or icon, and to list apps that should be ignored by the Dock, other than system apps. (if you have Dock installed).
+   - **Dock**: same, but with one extra tab (Apps): to change an specific app name or icon, and to list apps that should be ignored by the Dock, other than system apps (the app may be ignored from the Applications view, or from the opened apps group). (if you have Dock installed).
    - **Menubar**: should work as the Dock Apps tab, but for the Menubar. (if you have Menubar installed).
    - **Language & Region**
    - **Security & Privacy**: General tab only; FileVault, Firewall and Privacy should be ignored.
@@ -60,8 +60,23 @@ The macOS equivalent to the Windows's Control Panel is just easier to work on. T
 
 The Dock and Menubar views should appear because their respective apps should also install a DLL that works as a plugin to the System Preferences app. 
 
+## Future modules
+Those modules are apps that I like in macOS, but which I have no plans to recreate in Windows yet because the alternatives are not that bad. The may be done in the future, but they are not my top priority.
+
+### TextEdit
+Basically Wordpad and Notepad combinated into a single app, but with a cleaner UI.
+
+### Finder
+For now, the Windows Explorer will do just good, but it would be interesting to recreate the Finder look in Windows in the future, since it has a more simple UI.
+
 ## Ignored modules
 There are things in macOS that I simply don't use (or don't use THAT much), and because of that I won't work on. In case you liked the project and want one of the modules below being a part of macOsFeel, submit a pull request and I will review it.
+
+### Calendar
+I love the macOS Calendar, but the Windows 10 calendar seems to be just good enought. Haven't tested it yet thought.
+
+### Calculator
+Same as above. macOS has a nice Calculator, but Windows 10 also does. There is no need to work on replicating it.
 
 ### Spotlight
 At this moment, I just recommend you to use [Wox](https://github.com/Wox-launcher/Wox). It looks good enought (haven't tested it yet thought).
