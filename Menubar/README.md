@@ -11,3 +11,5 @@ The functionalities that I intent to implement in the right side are:
 - Showing the Bluetooth, Wi-Fi/Ethernet, Volume, Battery, Calendar+Time and User icons with options on click.
 - All the prior mentioned icons should have a Preferences option in their Menu to launch System Preferences in its specific view (if you have it installed; otherwise it should launch its Windows's Control Panel counterpart).
 - Showing a magnifying icon that can run a shell command (to launch the Spotlight, if you have it installed).
+
+May be based in [ViDock](https://github.com/lee-soft/ViDock).
