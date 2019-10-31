@@ -24,3 +24,5 @@ The macOS equivalent to the Windows's Control Panel is just easier to work on. T
    - **Date & Time**
 
 The Dock and Menubar views should appear because their respective apps should also install a DLL that works as a plugin to the System Preferences app. 
+
+May start using the [Ultimate Settings Panel](https://github.com/techygeekshome/Ultimate-Settings-Panel) source.
